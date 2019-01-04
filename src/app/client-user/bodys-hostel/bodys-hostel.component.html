@@ -1,0 +1,39 @@
+<div class="container-fluid">
+    <h2> Boys Hostel </h2>          
+    <table class="table table-bordered responsive">
+      <thead>
+        <tr>
+          <th>S No</th>
+          <th>Name of the Hostel</th>
+          <th>contact number</th>
+          <th>area</th>
+          <th> Landmark </th>
+          <th> city </th>
+          <th> state </th>
+          <th> pincode </th>
+          <th class="moreDetails"> click below for more details </th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let hostels of gethostelDetalis; let i = index">
+        <tr>
+          <td> {{i+1}} </td>
+          <td> {{hostels.nameOfHostel}} </td>
+          <img src="{{hostels.images10}}" alt="xdc" style="width:100%;height:300px;">
+          <!-- <td> {{hostels.contactNumber}} </td>
+          <td> {{hostels.area}} </td>
+          <td> {{hostels.landmark}} </td>
+          <td> {{hostels.city}} </td>
+          <td> {{hostels.state}} </td>
+          <td> {{hostels.pincode}} </td> -->
+          <td class="moreDetails"> <button type="button" class="btn btn-primary" (click)="openDialog()"> More Details </button> </td>
+        </tr>
+        <tr>
+           
+      </tbody>
+    </table>
+  </div>
+  <!-- <h1> https://www.google.com/maps/dir/17.9122127,78.58609//@17.8990585,78.5305444,13z/data=!4m2!4m1!3e2 </h1>
+<a href="https://www.google.com/maps/dir/17.9122127,78.58609//@17.8990585,78.5305444,13z/data=!4m2!4m1!3e2"> hostel maps </a> -->
+
+
+

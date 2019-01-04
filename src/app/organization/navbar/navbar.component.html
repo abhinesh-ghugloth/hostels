@@ -1,0 +1,60 @@
+
+
+
+<div class="container-fluid">
+  <div class="row navsAdj">
+    <!-- //side nav bar -->
+      <div class="col-sm-3 dashboardadj">
+         <h2 class="dashbosrd"> dashbosrd </h2> 
+          <ul class="plants">
+              <li><a routerLink="/organization" class="organizations"> Organization Details </a> </li>
+              <li><a routerLink="/adminDetails" class="organizations"> adminDetails Details </a> </li>
+              <li><a routerLink="/userDetails" class="organizations"> userDetails Details </a> </li>
+              <li><a routerLink="/home" class="organizations"> Home </a> </li>
+              <li><a routerLink="/about-us" class="organizations"> about-us </a> </li>
+              <li><a routerLink="/service" class="organizations"> service </a> </li>
+              <li><a routerLink="/contact-us" class="organizations"> contact-us </a> </li>
+
+              </ul>
+        </div>
+        <!-- upper nav bar -->
+          <div class="col-sm-9">
+              <div class="col-sm-4 text-right">
+                  <ul class="plants">
+                               
+                      <li>
+                        <button mat-raised-button (click)="openDialog()">Create Organizations</button>
+                      </li>
+                      <li *ngIf="animal">
+                        You chose: <i>{{animal}}</i>
+                      </li>
+                    </ul>
+                </div>
+              
+                <div class="col-sm-5 pull-right">
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                      </form>
+                  </div>
+
+                  
+                  
+          </div> 
+
+          
+          <div class="row">
+            <div class="col-sm-12">
+                <router-outlet></router-outlet>
+
+            </div>
+
+          </div>
+       
+  </div>
+</div>
+
+
+  

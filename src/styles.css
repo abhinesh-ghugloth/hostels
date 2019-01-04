@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+.c{background-color: red}
+.d{background-color:blue}
+.g{background-color:green}
+
+.boys-popup{width:100%}
+.mat-dialog-container {
+    width: 124%!important;
+}
+
+

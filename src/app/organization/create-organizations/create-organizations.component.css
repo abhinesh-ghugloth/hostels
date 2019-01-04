@@ -1,0 +1,21 @@
+.plantsAnimalsNavbar{list-style: none;}
+.example-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .example-container > * {
+    width: 100%;
+  }
+
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  .bg{margin-bottom:20px;background-color: green}
+  .orgButton{margin-top:20px;width:40%}
