@@ -18,11 +18,10 @@
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
-      "styles": ["/home/abhinesh/Documents/angular5/p&a applications/organizations/node_modules/bootstrap/dist/css/bootstrap.min.css",
-        "styles.css"
+      "styles": ["../node_modules/bootstrap/dist/css/bootstrap.min.css"
       ],
-      "scripts": ["/home/abhinesh/Documents/angular5/p&a applications/organizations/node_modules/jquery/dist/jquery.min.js",
-        "/home/abhinesh/Documents/angular5/p&a applications/organizations/node_modules/bootstrap/dist/js/bootstrap.min.js"],
+      "scripts": ["../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js"],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
